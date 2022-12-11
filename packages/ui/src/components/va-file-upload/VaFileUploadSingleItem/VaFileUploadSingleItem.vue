@@ -18,7 +18,7 @@
         flat
         @click="$emit('remove')"
       >
-        Delete
+        {{ tp(deleteButtonText) }}
       </va-button>
     </va-list-item-section>
   </va-list-item>
