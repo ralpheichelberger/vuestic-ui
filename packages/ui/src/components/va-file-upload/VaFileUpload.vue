@@ -88,6 +88,7 @@ export default defineComponent({
     dropZoneText: { type: String, default: '$t:dropzone' },
     uploadButtonText: { type: String, default: '$t:uploadFile' },
     deletedFileMessage: { type: String, default: '$t:fileDeleted' },
+    deleteButtonText: { type: String, default: '$t:deleteFile' },
     modelValue: {
       type: [Object, Array] as PropType<VaFile | VaFile[]>,
       default: () => [],
